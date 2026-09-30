@@ -1,6 +1,6 @@
 //variables and data types
 let fullname= "brenda sigei";//string because it has a text
-const age=20;//number
+const Age=20;//number
 var isEnrolled=true;//boolean because of true or false
 
 //typesof tells js what data type a variable contains
@@ -8,8 +8,8 @@ console.log(fullname);
 console.log(typeof fullname);
 
 
-console.log(age);
-console.log(typeof age);
+console.log(Age);
+console.log(typeof Age);
 
 
 console.log(isEnrolled);
@@ -25,10 +25,11 @@ let additional = numericString * number;
 //510
 
 //multiplication js converts the string to a number
-let multiplication = numeric string * number={;
+let multiplication = numericString * number;
     50
 
-    console.log("Additional:", typesof addition);
+    console.log("Addition:", addition);
+    console.log("Type of adddition:", typeof addition);
 
     console.log("multiplication:", multiplication);
     console.log("Type of multiplication:", typeof multiplication);
@@ -69,24 +70,24 @@ let grade = Math.floor(score /10)
 switch(grade) {
     case 10:
         case 9:
-            console.log(Grade:"A")
+            console.log("Grade:A")
         break;
 
         case 8:
-            console.log(Grade:"B")
+            console.log("Grade:B")
             break;
 
             case 7:
-                console.log(Grade:"c")
+                console.log("Grade:c")
                 break;
 
                 case 6:
-                    console.log(Grade:"D")
+                    console.log("Grade:D")
                     break;
   //break is used to stop the switch once the correct case is choosen                  
 
                     default:
-                        console.log("Grade:"F")
+                        console.log("Grade:F")
 
             
 }
