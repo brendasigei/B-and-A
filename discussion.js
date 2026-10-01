@@ -3,11 +3,11 @@ let age = 20;
 //it is limited by block scope
 var isMarried = false;
 //it is isn't limited by block scope
-If false {
-    var isMarried = true;
-}
+If(false)
+    var x = isMarried 
+
 //if declared with var, it will be true
-const notmarried='notmarried"
+const notmarried="notmarried"
 if (true){
     const notmarried=true;
 }
@@ -74,12 +74,13 @@ console.log(results4);//logs 0
 //if...else if
 let role = "editor";
 
-if(role ==="admin":{
+if (role ==="admin") {
     console.log("full access");
 } else if (role ==="editor") {
     console.log("can publish content");
 } else if (role ==="guest") {
-    console.log("read-only access");{
+    console.log("read-only access");
+}
         else{
             console.log("Access denied");
         }
